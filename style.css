@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sans-Serif;
+  
+}
+
+body{
+  margin: 5px;
+  padding: 5px;
+  background-color: #2e739bc2;
+  font-family: Times New Roman;
+  display: flow-root;
+  flex-direction: column;
+
+
+
+}
+
+header{
+  background-color: #fdd806f8;
+  padding: 20px;
+  display: flex; 
+  text-align: center;
+  color: white;
+  box-shadow: 2px 2px 4px rgba(78, 50, 50, 0.2);
+  justify-content: space-between;
+  position:relative;  
+  align-items: center;
+  align-content: center;
+  font-size: 1.5em;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: #4CAF50; /* Color inicial */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.active {
+  background-color: #f44336; /* Color cuando está activo */
+}
+
+
+container{
+  padding: 1em;
+  height: 8em;
+  display: flex;
+  background-color: #82ADAB;
+}
+
+.logo-header
+{
+  padding: 2em;
+   
+  float: left; 
+  
+} 
+
+.my-first-grid{
+  padding: 40px;
+  background-color: #071;
+  border-radius: 1em;
+  
+}
+
+redes-sociales{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #4CAF50;
+  border-radius: 1em;
+  box-shadow: 2px 2px 4px rgba(78, 50, 50, 0.2);
+  font-size: 1.5em;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+
+
+
