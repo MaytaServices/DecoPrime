@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
     function toggleVisibility(id) {
         var element = document.getElementById(id);
@@ -47,14 +46,22 @@ document.addEventListener("DOMContentLoaded", function () {
             alert('Error al enviar el formulario');
         }
     });
+
+    // Botón inteligente de WhatsApp
+    const whatsappButton = document.querySelector('.whatsapp-button');
+    whatsappButton.addEventListener('click', function () {
+        const nombre = document.getElementById('nombre').value || "Cliente anónimo";
+        const mensaje = document.getElementById('mensaje').value || "Me gustaría obtener más información sobre sus servicios.";
+
+        const encodedMessage = encodeURIComponent(
+            `Hola, soy ${nombre}. ${mensaje}`
+        );
+
+        // Cambia el número de WhatsApp aquí
+        const whatsappURL = `https://wa.me/1234567890?text=${encodedMessage}`;
+        whatsappButton.href = whatsappURL;
+    });
 });
-
-
-
-
-
-
-
 
 
 
