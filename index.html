@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DECORACIONES PRIME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./IMG/MaytaCapac(1)" alt="Logo de la empresa">
+        </div>
+       
+        <div class="redes-sociales">
+            <a href="#"><img src="./IMG/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="./IMG/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="./IMG/twitter.png" alt="Twitter"></a>
+        </div>  
+      
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <button id="Decoprime" onclick="toggleEvent('Decoprime')">
+                <h1><strong>DECO</strong></h1><h4>PRIME</h4>
+                <h2>Diseño y decoración</h2>
+            </button>
+        </section>
+
+        <section id="servicios">
+            <p>Quieres que tu evento deje en la memoria de tus invitados esa característica inolvidable y de excelencia.</p>
+            <button id="cleanMaButton" onclick="toggleSection('oficinas')">CLEAN MA</button>
+            <p>Ofrecemos servicios de limpieza para negocios en general y para hogares, incluyendo desinfección y reparaciones.</p>
+
+            <ul>
+                <li><button onclick="toggleSection('oficinas')">Limpieza de oficinas</button></li>
+                <div id="oficinas" class="hidden">
+                    <p>Técnicas milenarias orientales para mejorar productividad.</p>
+                </div>
+
+                <li><button onclick="toggleSection('salones')">Limpieza de salones de eventos</button></li>
+                <div id="salones" class="hidden">
+                    <p>Organización de eventos sociales, pre y post evento.</p>
+                </div>
+
+                <li><button onclick="toggleSection('restaurantes')">Limpieza de restaurantes y bares</button></li>
+                <div id="restaurantes" class="hidden">
+                    <p>Servicios especializados para restaurantes y bares.</p>
+                </div>
+            </ul>
+        </section>
+
+        <section id="pre-evento">
+            <h4>Servicios Pre-Evento</h4>
+            <p>Planificación y coordinación integral antes del evento.</p>
+            <p>Preparativos detallados para asegurar el éxito de tu evento.</p>
+            <p>Gestión completa de todos los aspectos previos al evento.</p>
+        </section>
+
+        <section id="post-evento">
+            <h4>Servicios Post-Evento</h4>
+            <p>Evaluación y análisis detallado después del evento.</p>
+            <p>Seguimiento y retroalimentación post-evento.</p>
+            <p>Servicios de cierre y documentación final del evento.</p>
+        </section>
+
+        <section id="desinfeccion">
+            <h4>Desinfección</h4>
+            <p>Nuestros servicios incluyen desinfección de superficies, equipos y áreas de alta circulación.</p>
+        </section>
+
+        <section id="plaguicidas">
+            <h4>Control de plagas</h4>
+            <p>Ofrecemos control de plagas de insectos, roedores y aves.</p>
+        </section>
+
+        <section id="contacto">
+            <h3><strong>Contacto</strong></h3>
+            <p>Para más información, complete el formulario:</p>
+            <form id="contactoForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required><br><br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+             <!-- Esto es un comentario en HTML -->
+         <!-- un boton de contacto de whatsapp en el futter -->
+  
+        
+            <!-- Botón de contacto de WhatsApp -->
+            <a href="https://wa.me/593978791749" target="_blank" class="whatsapp-button" title="Contáctanos por WhatsApp">
+                <img src="./IMG/whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon">
+                Contáctanos por WhatsApp
+            </a>
+
+
+
+            <p>&copy; 2019 Servicios de Limpieza. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
