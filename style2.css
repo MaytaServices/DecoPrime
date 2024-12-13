@@ -1,0 +1,168 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sans-Serif', Times New Roman;
+}
+/* Estilos generales */
+/*body {
+  margin: 5px;
+  padding: 5px;
+  background-color: #5daf6fa9; /* Fondo general */ /*
+ 
+  display: flex;/*
+  flex-direction: column;
+  
+}
+
+/* Estilo de Header */
+header {
+  background-color: rgb(39, 90, 97);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 4px 2px 6px rgb(93, 209, 26);
+  position: relative;
+  text-align: center;
+  color: rgb(255, 136, 0);
+} 
+
+header .logo img {
+  height: 60px;
+}
+
+header nav.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav.menu ul li {
+  margin: 0 10px;
+}
+
+header nav.menu ul li a {
+  text-decoration: none;
+  color: rgb(109, 106, 106);
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+header nav.menu ul li a:hover {
+  color: #a08b7d; /* Efecto hover en los enlaces */
+}
+
+/* Redes sociales */
+.redes-sociales {
+  
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 2px 2px 4px rgba(132, 145, 140, 0.527);
+ 
+  
+}
+
+
+/* Botones generales */
+button {
+  background-color: rgb(204, 192, 125);
+  color: rgba(82, 83, 82, 0.884);
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background-color: #b7e020;
+  transform: scale(1.05);
+}
+
+button.active {
+  background-color: rgba(216, 44, 44, 0.479)af;
+}
+
+/* Sección principal */
+main {
+  padding: 20px;
+}
+
+
+main #intro {
+  text-align: center;
+  margin: 20px 0;
+}
+
+main #servicios {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main section {
+  margin-bottom: 20px;
+}
+
+main section h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer .whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25d366;
+  color: rgb(41, 40, 40);
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(133, 126, 126, 0.884);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+footer .whatsapp-button:hover {
+  background-color: #1ebe57;
+  transform: scale(1.05);
+}
+
+footer .whatsapp-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+/* Clases de utilidad */
+.hidden {
+  display: none;
+}
+
+.container {
+  padding: 1em;
+  background-color: #82ADAB;
+}
+
+.my-first-grid {
+  padding: 40px;
+  background-color: #071;
+  border-radius: 1em;
+  margin: 20px 0;
+}
