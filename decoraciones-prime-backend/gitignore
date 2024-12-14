@@ -1,0 +1,92 @@
+
+# Archivos de entorno y configuración
+.env
+.env.*          
+# Variantes como .env.staging, .env.production, etc.
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencias
+/node_modules
+.npm/
+.pnpm/
+.pnpm-debug.log
+package-lock.json
+yarn.lock
+*.lock
+
+# Builds y output de producción
+/build
+/dist
+/out
+*.js.map
+*.css.map
+
+# Logs y archivos de debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de cobertura de pruebas
+/coverage
+/test-results/
+*.tap
+
+# Archivos del sistema operativo
+.DS_Store          macOS
+Thumbs.db          Windows
+
+# Configuración del editor y archivos temporales
+.idea/             JetBrains IDEs (WebStorm, IntelliJ)
+.vscode/           VSCode configs
+*.swp              Vim swap files
+*.swo
+
+# Bases de datos locales y dumps
+*.mongodb
+dump/
+*.lock
+*.db
+*.sqlite
+
+# Archivos de configuración de despliegue
+.now/
+.vercel/
+.netlify/
+netlify.toml
+firebase-debug.log
+firebase.json
+
+# Directorios específicos de CI/CD
+.circleci/
+.github/
+.gitlab-ci.yml
+
+# Archivos de linting, formateo y husky hooks
+.husky/
+.eslintcache
+.prettierrc
+.prettierignore
+
+# Archivos específicos del sistema de control de versiones
+.git
+.gitignore
+.gitmodules
+.gitattributes
+
+# Otros temporales específicos de tu proyecto o backend
+npm-cache/
+
+#package.json 
+package.json
+
+# Ignorar el package-lock.json (opcional, si prefieres que no se suba)
+package-lock.json
+yarn.lock
+
+
+
